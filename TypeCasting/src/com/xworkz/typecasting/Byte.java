@@ -59,27 +59,7 @@ public class Byte {
 	long w = 1938929919;
 	byte x = (byte) w;
 	System.out.println(w);
-	
-	
-	
-	
-
-	
-	
-	
-	
-	
-	
-	
-			
 		
-	
-	
-	
-	
-	
-	
-	
 	
 	}
 
