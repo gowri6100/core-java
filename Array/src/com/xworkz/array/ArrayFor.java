@@ -20,35 +20,41 @@ public class ArrayFor {
 		long numbs [] = new long [23];
 		float pre [] = new float [34];
 		
-	 for (int i=0;i<digits.length-1;i++) {
-			
+		//ascending odd value and skip one value
+		
+	for (int i=0;i<digits.length-1;i++) {
 		if (digits[i]%2!=0) {
-		System.out.println(digits[i]);
+	System.out.println(digits[i]);
 		}
 	}
 	
-	 System.out.println("------------------------------------------------");
-		for (int k=nos.length-1;k>=0;k--) {
-			
-		if (nos[k]%2==0) {
+		//printing reverse number
+	System.out.println("------------------------------------------------");
+	for (int k=nos.length-1;k>=0;k--) {
+			if (nos[k]%2==0) {
 				System.out.println(nos[k]);
-		  }
+		 }
 		}
 		
+		//ascndeing even number skip one num
+		
 		System.out.println("------------------------------------------------");
-	for (int m=0; m<=digits.length-1; m++) {
+     for (int m=0; m<=digits.length-1; m++) {
 		if (digits[m]%2==0) {
-				System.out.println(digits[m]);
-			}
+		System.out.println(digits[m]);
+		}
 				
 		}
+		
+	//	reverse skip one value
+          
 	System.out.println("------------------------------------------------");
 	for (int n=nos.length-1;n>=0;n--) {
-			if (nos [n]!=0) {
-			System.out.println(nos [n]);
-				n--;
-			}
+		if (nos [n]!=0) {
+		System.out.println(nos [n]);
+			n--;
 		}
+	}
 				
 		
 	}
