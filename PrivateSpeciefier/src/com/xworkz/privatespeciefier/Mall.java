@@ -16,14 +16,17 @@ public class Mall {
 		System.out.println(nameOfTheMall);
 		return nameOfTheMall;
 	}
-	public static void employees () {
+	public static int  employees () {
 		System.out.println( noOfEmployees);
+		return noOfEmployees;
 	}
-	public static void amount () {
+	public static int amount () {
 		System.out.println(Salary);
+		return Salary;
 	}
-	public static void expenses() {
+	public static int expenses() {
 		System.out.println(expenditure);
+		return expenditure;
 	}
 
 }
