@@ -6,6 +6,7 @@ public class Create1Runner {
 	Creat1 obj	= new Creat1();
 	obj.goal("plastic");
 	obj.goal("copper bottle");
+	obj.search("steel", 0);
 		
 		
 	}

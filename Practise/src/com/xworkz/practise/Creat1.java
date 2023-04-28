@@ -23,6 +23,25 @@ public class Creat1 {
 			System.out.println(bottle [j]);
 		}
 	}
+	public boolean search(String bottleName,int index) {
+		if(bottleName!=null && bottleName.length() > 3) {
+			for(int i=0;i<bottle.length ;i++) {
+				if (bottle [i]!=null){
+					if(bottle[i].equals (bottleName)) {
+						System.out.println("bottle is found");
+						return true;
+						
+					}
+					
+				}
+				
+				
+			}
+			
+		}
+		System.out.println("bottle is not found");
+		return false;
+	}
 	
 	
 	
